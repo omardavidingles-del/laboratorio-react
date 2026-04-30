@@ -2,7 +2,7 @@ import React from 'react';
 import Testimonios from './components/Testimonios';
 import Contador from './components/Contador';
 import Calculadora from './components/Calculadora';
-import AppTareas from './components/AppTareas';
+import AppTareas from './components/Apptareas';
 
 function App() {
   return (
