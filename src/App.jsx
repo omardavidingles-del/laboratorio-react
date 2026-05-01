@@ -32,6 +32,11 @@ function App() {
           <AppTareas />
         </section>
       </div>
+      {/* Pie de página del autor */}
+      <footer style={{ marginTop: '40px', textAlign: 'center', padding: '20px', borderTop: '1px solid #eaeaea', color: '#666' }}>
+        <p>👨‍💻 Desarrollado por <strong>Omar David Vaca Maquiavelo</strong></p>
+        <p style={{ fontSize: '0.9em' }}>Portafolio de React - Estudiante de Ingeniería Informatica | 2026</p>
+      </footer>
     </div>
   );
 }
