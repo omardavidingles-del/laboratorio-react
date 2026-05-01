@@ -33,9 +33,24 @@ function App() {
         </section>
       </div>
       {/* Pie de página del autor */}
-      <footer style={{ marginTop: '40px', textAlign: 'center', padding: '20px', borderTop: '1px solid #eaeaea', color: '#666' }}>
-        <p>👨‍💻 Desarrollado por <strong>Omar David Vaca Maquiavelo</strong></p>
-        <p style={{ fontSize: '0.9em' }}>Portafolio de React - Estudiante de Ingeniería Informatica | 2026</p>
+      {/* Pie de página del autor mejorado */}
+      <footer style={{ 
+        marginTop: '60px', 
+        padding: '30px 20px', 
+        background: 'linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent)', 
+        borderTop: '1px solid rgba(255, 255, 255, 0.1)', 
+        textAlign: 'center', 
+        fontFamily: 'system-ui, -apple-system, sans-serif'
+      }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+          <span style={{ fontSize: '1.3em' }}>👨‍💻</span>
+          <p style={{ margin: 0, fontSize: '1.1em', color: '#e2e8f0' }}>
+            Desarrollado por <strong style={{ color: '#61dafb', letterSpacing: '0.5px' }}>Omar David Vaca Maquiavelo</strong>
+          </p>
+        </div>
+        <p style={{ margin: 0, fontSize: '0.9em', color: '#94a3b8' }}>
+          Portafolio de React • Estudiante de Ingeniería Informática | 2026
+        </p>
       </footer>
     </div>
   );
